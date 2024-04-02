@@ -8,11 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
     <!-- Title -->
-    <title>Casos</title>
+    <title>Contactanos</title>
 </head>
 
 <body>
@@ -104,14 +102,57 @@
     </nav>
     <!-- fin de mobile navbar -->
 
-    
-    <!-- Hero -->
-    <section class="bg-hero-image">
-        <div class="container mx-auto">
-            <h1 class="text-4xl font-bold">Title</h1>
+    <section class="mt-10 bg-[#FCEDC9]">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-full justify-center">
+            <div class="row-span-1 text-center">
+                <h1 class="text-4xl font-bold">Contactanos</h1>
+            </div>
+            <div class="row-span-1 flex justify-center">
+                <img class="h-4/5" src="../assets/images/contactanos/telefono.png" alt="" />
+            </div>
         </div>
-     
     </section>
+
+    <section class=" h-screen">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-full justify-center">
+            <div class="row-span-1 flex justify-center">
+                <div class="p-4 bg-black shadow-lg rounded-tl-lg">
+                    <div class="flex items-center space-x-2">
+                        <img class="w-8 h-8 rounded-full" src="user-avatar.png" alt="User Avatar">
+                        <div class="flex flex-col">
+                            <span class="font-semibold">John Doe</span>
+                            <span class="text-gray-500">Online</span>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <div class="flex items-center space-x-2">
+                            <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded-lg"
+                                placeholder="Type a message...">
+                            <button class="px-4 py-2 text-white bg-blue-500 rounded-lg">Send</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row-span-1 flex justify-center">
+                <div class="container mx-auto">
+                    <div class="grid grid-cols-1 gap-4 justify-center">
+                        <div class="col-span-1">
+                            <a href="#"><img src="../assets/images/contactanos/facebook.png" alt=""></a>
+                        </div>
+                        <div class="col-span-1">
+                            <a href="#"><img src="../assets/images/contactanos/insta.png" alt=""></a>
+                        </div>
+                        <div class="col-span-1">
+                            <a href="#"><img src="../assets/images/contactanos/linkedin.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 
