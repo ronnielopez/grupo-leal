@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- Title -->
     <title>Casos</title>
 </head>
@@ -101,13 +103,43 @@
     </nav>
     <!-- fin de mobile navbar -->
 
-    <!-- Hero -->
-    <section class="bg-black text-white">
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-full">
-            <div class="row-span-1">
-                <h1 class="text-4xl lg:text-6xl font-black text-center">Casos</h1>
-                <p class="text-lg lg:text-xl mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur
-                    ligula sit amet justo lacinia, nec ultricies nunc fermentum.</p>
+    <!-- Hero Color -->
+    <section class="bg-[#254644] text-white py-20">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-full justify-center">
+            <div class="row-span-1 text-center">
+                <h4 class="text-2xl md:text-xl mb-4">TRABAJADORES</h4>
+                <!-- slider -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper h-40">
+                        <div class="swiper-slide">
+                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Trabajador fue atacado por un animal salvaje que le mutiló un brazo. El resultado es
+                                    confidencial.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Trabajador murió enterrado en un deslave. Logramos comprobar que el deslave era
+                                    prevenible y obtuvimos una cifra confidencial para la familia.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Trabajador perdió una pierna y parte de la otra cuando maquinaria pesada le cayó
+                                    encima. El resultado es confidencial.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next text-white"></div>
+                    <div class="swiper-button-prev text-white"></div>
+                </div>
+                <!-- slider -->
             </div>
             <div class="row-span-1 flex justify-center">
                 <img class="h-96" src="../assets/images/casos/constructor.png" alt="" />
@@ -115,8 +147,200 @@
         </div>
     </section>
 
+    <!-- Hero White -->
+    <section class="bg-white text-white h-full py-20">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center justify-center">
+            <div class="row-span-1 flex justify-center">
+                <img class="h-full" src="../assets/images/casos/people.png" alt="" />
+            </div>
+            <div class="row-span-1 text-center">
+                <h4 class="text-2xl md:text-xl mb-4 text-[#254644]">PEATONES</h4>
+                <!-- slider -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper h-40">
+                        <div class="swiper-slide">
+                            <div
+                                class="bg-[#254644] text-white mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Pareja fue arrollada por un conductor que iba distraída en su celular. Obtuvimos
+                                    <strong>$4,500,000.00</strong> a favor de la pareja.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div
+                                class="bg-[#254644] text-white mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Peatón quedó inconsciente después que una camioneta la golpeara. Después de
+                                    encontrar al culpable, obtuvimos <strong>$500,000.00.</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div
+                                class="bg-[#254644] text-white mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Adolescentes atropellados cuando un conductor perdió el control y atravesó la
+                                    ventana de un negocio. Resultado confidencial.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next text-[#254644]"></div>
+                    <div class="swiper-button-prev text-[#254644]"></div>
+                </div>
+                <!-- slider -->
+            </div>
+        </div>
+    </section>
 
 
+    <!-- Hero Color -->
+    <section class="bg-[#254644] text-white py-20">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-full justify-center">
+            <div class="row-span-1 text-center">
+                <h4 class="text-2xl md:text-xl mb-4">NIÑOS</h4>
+                <!-- slider -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper h-40">
+                        <div class="swiper-slide">
+                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Niño privado de oxígeno sufre daño neurológico. <strong>$4,600,000.00</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Niña de dos años sufre quemaduras y cicatrices permanentes. <strong>$1,000,000.00</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Niña de tres años pierde dedo en mano izquierda. <strong>$1,000,000.00</strong> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next text-white"></div>
+                    <div class="swiper-button-prev text-white"></div>
+                </div>
+                <!-- slider -->
+            </div>
+            <div class="row-span-1 flex justify-center">
+                <img class="h-96" src="../assets/images/casos/patin.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero White -->
+    <section class="bg-white text-white h-full py-20">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center justify-center">
+            <div class="row-span-1 flex justify-center">
+                <img class="h-full" src="../assets/images/casos/car.png" alt="" />
+            </div>
+            <div class="row-span-1 text-center">
+                <h4 class="text-2xl md:text-xl mb-4 text-[#254644]">CHOQUES</h4>
+                <!-- slider -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper h-40">
+                        <div class="swiper-slide">
+                            <div
+                                class="bg-[#254644] text-white mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Conductor y pasajero ebrios chocaron y mataron a dos de cinco chicas en otro
+                                    vehículo. <strong>$4,600,000.00</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div
+                                class="bg-[#254644] text-white mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Conductor sufrió quemaduras graves cuando su camión ardió en llamas después de un
+                                    choque. <strong>$1,000,000.00</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div
+                                class="bg-[#254644] text-white mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Conductor perdió el conocimiento después de un choque. A pesar de que el culpable se
+                                    dio a la fuga, obtuvimos <strong>$500,000.00.</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next text-[#254644]"></div>
+                    <div class="swiper-button-prev text-[#254644]"></div>
+                </div>
+                <!-- slider -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Hero Color -->
+    <section class="bg-[#254644] text-white py-20">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-full justify-center">
+            <div class="row-span-1 text-center">
+                <h4 class="text-2xl md:text-xl mb-4">MORDEDURAS DE PERRO</h4>
+                <!-- slider -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper h-40">
+                        <div class="swiper-slide">
+                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Mujer atacada por perro en la playa. <strong>$100,000.00</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Mujer sufre mordedura de perro en la cara. <strong>$250,000.00</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14">
+                                    Mujer sufre mordeduras de perro en una pierna. $50,000.00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next text-white"></div>
+                    <div class="swiper-button-prev text-white"></div>
+                </div>
+                <!-- slider -->
+            </div>
+            <div class="row-span-1 flex justify-center">
+                <img class="h-96" src="../assets/images/casos/perro.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
