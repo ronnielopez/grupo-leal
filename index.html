@@ -14,14 +14,75 @@
     <title>Casos</title>
 </head>
 
-<body class="bg-white">
+<body>
     <!-- Navbar -->
+
+    <header class="bg-[#193C3A] ;"
+        style="background-image: url(assets/images/home/home-banner.png); background-position: center; background-size: cover;">
+        <div class="container mx-auto flex items-center h-24 justify-between">
+            <a class="logo mr-auto" style="margin: 0 auto;">
+                <img class="h-18" src="assets/images/home/Logo.png" alt="index.html" />
+            </a>
+            <nav class="navbar contents font-semibold text-base lg:text-lg text-[#FCEDC9]">
+                <ul class="mx-auto flex items-start">
+                    <li class="p-5 xl:p-8 active">
+                        <a href="">
+                            <span>Areas de especialidad</span>
+                        </a>
+                    </li>
+                    <li class="p-5 xl:p-8">
+                        <a href="">
+                            <span>Galeria</span>
+                        </a>
+                    </li>
+                    <li class="p-5 xl:p-8">
+                        <a href="">
+                            <span>Casos</span>
+                        </a>
+                    </li>
+                    <li class="p-5 xl:p-8">
+                        <a href="">
+                            <span>Acerca de nosotros</span>
+                        </a>
+                    </li>
+                    <li class="p-5 xl:p-8">
+                        <a href="">
+                            <span>Contáctanos</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="bg-opacity-0 h-screen flex justify-center items-center">
+            <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
+                <div>
+                    <h1
+                        class="block text-3xl font-bold text-[#FCEDC9] sm:text-4xl lg:text-6xl lg:leading-tight text-[#FCEDC9]">
+                        SIN DUDAS
+                    </h1>
+                    <h1
+                        class="block text-8xl font-bold text-[#FCEDC9] sm:text-4xl lg:text-6xl lg:leading-tight text-[#FCEDC9]">
+                        NI DEUDAS
+                    </h1>
+                    <div class="mt-7 grid gap-3 w-full sm:inline-flex">
+                        <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#FCEDC9] text-[#193C3A] hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 display: grid; flex"
+                            href="#">
+                            Consulta
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- Navbar Mobile -->
-    <nav class="bg-[#193C3A] text-white shadow-lg block md:hidden">
-        <div class="container mx-auto flex items-center h-24 justify-center">
-            <a class="logo" style="margin: 0 auto; ml-auto">
-                <img class="h-16" src="assets/images/home/Logo.png" alt="" />
-                <span class="ml-4 uppercase font-black">clara</span>
+    <nav class="bg-black text-white shadow-lg block md:hidden">
+        <div class="container mx-auto flex items-center h-24">
+            <a href="" class="flex items-center justify-center">
+                <img class="h-16" src="https://i.ibb.co/6Yxs70d/2021-10-26-23h27-03.png" alt="" />
+                <span class="ml-4 uppercase font-black">clara<br />thella</span>
             </a>
             <button class="ml-auto mr-4 focus:outline-none">
                 <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -35,27 +96,27 @@
             <ul class="mt-4">
                 <li class="p-4">
                     <a href="">
-                        <span>Area de especialidad</span>
+                        <span>Home</span>
                     </a>
                 </li>
                 <li class="p-4">
                     <a href="">
-                        <span>Galeria</span>
+                        <span>About</span>
                     </a>
                 </li>
                 <li class="p-4">
                     <a href="">
-                        <span>Casos</span>
+                        <span>Projects</span>
                     </a>
                 </li>
                 <li class="p-4">
                     <a href="">
-                        <span>Acerca de nosotros </span>
+                        <span>Services</span>
                     </a>
                 </li>
                 <li class="p-4">
                     <a href="">
-                        <span>Contectános</span>
+                        <span>Blog</span>
                     </a>
                 </li>
             </ul>
@@ -63,244 +124,140 @@
     </nav>
     <!-- fin de mobile navbar -->
 
-    <!-- Hero -->
-    <div class="bg-[#193C3A] h-screen " style="background-image: url(assets/images/home/home-banner.png); background-position: center; background-size: cover;">
-        <!-- Grid -->
-
-        <header class="hidden md:block">
-            <div class="container mx-auto flex items-center h-24 justify-between">
-                <a class="logo mr-auto" style="margin: 0 auto;">>
-                  <img class="h-18" src="assets/images/home/Logo.png" alt="index.html" />
-                </a>
-                <nav class="navbar contents font-semibold text-base lg:text-lg text-[#FCEDC9]">
-                  <ul class="mx-auto flex items-start">
-                    <li class="p-5 xl:p-8 active">
-                      <a href="">
-                        <span>Areas de especialidad</span>
-                      </a>
-                    </li>
-                    <li class="p-5 xl:p-8">
-                      <a href="">
-                        <span>Galeria</span>
-                      </a>
-                    </li>
-                    <li class="p-5 xl:p-8">
-                      <a href="">
-                        <span>Casos</span>
-                      </a>
-                    </li>
-                    <li class="p-5 xl:p-8">
-                      <a href="">
-                        <span>Acerca de nosotros</span>
-                      </a>
-                    </li>
-                    <li class="p-5 xl:p-8">
-                      <a href="">
-                        <span>Contáctanos</span>
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              
-              
-            <div class="bg-opacity-0 h-screen flex justify-center items-center">
-                <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
-                    <div>
-                        <h1
-                            class="block text-3xl font-bold text-[#FCEDC9] sm:text-4xl lg:text-6xl lg:leading-tight text-[#FCEDC9]">
-                            SIN DUDAS
-                        </h1>
-                        <h1
-                            class="block text-8xl font-bold text-[#FCEDC9] sm:text-4xl lg:text-6xl lg:leading-tight text-[#FCEDC9]">
-                            NI DEUDAS
-                        </h1>
-                        <div class="mt-7 grid gap-3 w-full sm:inline-flex">
-                            <a class="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#FCEDC9] text-[#193C3A] hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 display: grid; flex"
-                                href="#">
-                                Consulta
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-    </div>
-
-    <section class="bg-[#193C3A] text-white py-20">
+    <!-- Hero Color -->
+    <section class="mt-20 bg-[#193C3A] text-white">
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-full justify-center">
-            <div class="row-span-1 text-center">
-                <h4 class="text-2xl md:text-xl mb-4">TRABAJADORES</h4>
+            <div class="row-span-1 text-center ">
+                <h4 class="text-10xl md:text-5xl mb-4 font-bold">ANTES QUE ABOGADOS</h4>
+                <h4 class="text-5xl md:text-5xl mb-4 font-bold">SOMOS HUMANOS</h4>
                 <!-- slider -->
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper h-40">
                         <div class="swiper-slide">
-                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
-                                <p class="text-center mx-14">
-                                    Trabajador fue atacado por un animal salvaje que le mutiló un brazo. El resultado es
-                                    confidencial.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
-                                <p class="text-center mx-14">
-                                    Trabajador murió enterrado en un deslave. Logramos comprobar que el deslave era
-                                    prevenible y obtuvimos una cifra confidencial para la familia.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="bg-white text-black mx-14 h-40 rounded-full flex items-center justify-center">
-                                <p class="text-center mx-14">
-                                    Trabajador perdió una pierna y parte de la otra cuando maquinaria pesada le cayó
-                                    encima. El resultado es confidencial.
+                            <div class="text-white mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14 font-bold">
+                                    En Grupo Leal, nuestra misión es brindar representación legal excepcional a clientes
+                                    que han resultado lesionados
+                                    en un accidente de auto, en el trabajo o debido a la negligencia de otros. Estamos
+                                    dedicados a ayudar a nuestros
+                                    clientes a obtener la compensación que merecen.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-button-next text-white"></div>
-                    <div class="swiper-button-prev text-white"></div>
                 </div>
                 <!-- slider -->
             </div>
             <div class="row-span-1 flex justify-center">
-                <img class="h-96" src="../assets/images/casos/constructor.png" alt="" />
+                <img class="h-4/5" src="assets/images/home/balanza.png" alt="" />
             </div>
         </div>
     </section>
 
-    <div class="bg-gray-200 w-full h-screen flex items-center justify-center">
-        <div class="relative">
-          <img class="object-cover w-full h-64 rounded-t-lg" src="https://picsum.photos/id/237/800/600" alt="Imagen">
-          <div class="bg-white p-4 rounded-b-lg shadow-lg">
-            <h1>Título</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
+    <!-- component -->
+<link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.min.css" />
+
+
+<!-- This is an example component -->
+<div class="max-w-2xl mx-auto">
+    
+    <div class="border-b border-gray-200 dark:border-gray-700 mb-4">
+        <ul class="flex flex-wrap -mb-px" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+            <li class="mr-2" role="presentation">
+                <button class="inline-block text-gray-500 hover:text-gray-600 hover:border-gray-300 rounded-t-lg py-4 px-4 text-sm font-medium text-center border-transparent border-b-2 dark:text-gray-400 dark:hover:text-gray-300" id="profile-tab" data-tabs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="mr-2" role="presentation">
+                <button class="inline-block text-gray-500 hover:text-gray-600 hover:border-gray-300 rounded-t-lg py-4 px-4 text-sm font-medium text-center border-transparent border-b-2 dark:text-gray-400 dark:hover:text-gray-300 active" id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="true">Dashboard</button>
+            </li>
+            <li class="mr-2" role="presentation">
+                <button class="inline-block text-gray-500 hover:text-gray-600 hover:border-gray-300 rounded-t-lg py-4 px-4 text-sm font-medium text-center border-transparent border-b-2 dark:text-gray-400 " id="settings-tab" data-tabs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+            </li>
+            <li role="presentation">
+                <button class="inline-block text-gray-500 hover:text-gray-600 hover:border-gray-300 rounded-t-lg py-4 px-4 text-sm font-medium text-center border-transparent border-b-2 dark:text-gray-400 dark:hover:text-gray-300" id="contacts-tab" data-tabs-target="#contacts" type="button" role="tab" aria-controls="contacts" aria-selected="false">Contacts</button>
+            </li>
+        </ul>
+    </div>
+    <div id="myTabContent">
+        <div class="bg-gray-50 p-4 rounded-lg dark:bg-gray-800 hidden" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <p class="text-gray-500 dark:text-gray-400 text-sm">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
         </div>
-      </div>
-
-    <div class="max-w-[50rem] flex flex-col mx-auto size-full">
-
-        <!-- ========== MAIN CONTENT ========== -->
-        <main id="content">
-            <div class="text-center py-10 px-4 sm:px-6 lg:px-8">
-                <h1 class="block text-2xl font-bold text-[#193C3A] sm:text-4xl">La Experiencia Cuenta</h1>
-                <p class="mt-7 text-lg text-[#255344]">Nuestro equipo de abogados especializados en casos de lesiones
-                    personales tiene décadas de experiencia en la gestión de una amplia gama de situaciones, incluyendo
-                    accidentes
-                    automovilísticos, mordeduras de perros y casos de acoso sexual. Contamos con un historial comprobado
-                    de éxito en los tribunales y hemos asegurado millones en compensación para nuestros clientes en
-                    estas áreas específicas del derecho.
-                    Nuestra dedicación y habilidades legales han sido fundamentales para obtener resultados exitosos en
-                    casos que abarcan desde lesiones causadas por accidentes automovilísticos hasta reclamaciones por
-                    mordeduras de perros y casos de acoso sexual.
-                    Confíe en nuestro equipo para representar sus intereses con determinación y obtener la compensación
-                    justa que usted merece en estas situaciones delicadas y complejas.</p>
-                <div class="mt-5 flex flex-col justify-center items-center gap-2 sm:flex-row sm:gap-3">
-                </div>
-            </div>
-        </main>
-        <!-- ========== END MAIN CONTENT ========== -->
-
+        <div class="bg-gray-50 p-4 rounded-lg dark:bg-gray-800" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+            <p class="text-gray-500 dark:text-gray-400 text-sm">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg dark:bg-gray-800 hidden" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+            <p class="text-gray-500 dark:text-gray-400 text-sm">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+        </div>
+        <div class="bg-gray-50 p-4 rounded-lg dark:bg-gray-800 hidden" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
+            <p class="text-gray-500 dark:text-gray-400 text-sm">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+        </div>
     </div>
 
-    <div class="flex flex-wrap justify-center mt-10">
+    <p class="mt-5">This tabs component is part of a larger, open-source library of Tailwind CSS components. Learn more by going to the official <a class="text-blue-600 hover:underline" href="#" target="_blank">Flowbite Documentation</a>.</p>
+</div>
 
-        <!-- card 1 -->
-        <div class="p-4 max-w-sm">
-            <div class="flex rounded-lg h-full dark:bg-gray-800 bg-teal-400 p-8 flex-col">
-                <div class="flex items-center mb-3">
-                    <div
-                        class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                        </svg>
+<script src="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.bundle.js"></script>
+
+    <section class="bg-[#FCEDC9] text-[#193C3A]">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center h-full justify-center">
+            <div class="row-span-1 text-center ">
+                <h4 class="text-10xl md:text-5xl mb-4 font-bold">Podemos conectarte</h4>
+                <h4 class="text-5xl md:text-5xl mb-4 font-bold">con los mejores abogados</h4>
+                <!-- slider -->
+                <div >
+                    <div>
+                        <div>
+                            <div class="text-[#255344] mx-14 h-40 rounded-full flex items-center justify-center">
+                                <p class="text-center mx-14 font-bold">
+                                    En Grupo Leal, nuestra misión es brindar representación legal excepcional a clientes
+                                    que han resultado lesionados
+                                    en un accidente de auto, en el trabajo o debido a la negligencia de otros. Estamos
+                                    dedicados a ayudar a nuestros
+                                    clientes a obtener la compensación que merecen.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <h2 class="text-white dark:text-white text-lg font-medium">Feature 1</h2>
                 </div>
-                <div class="flex flex-col justify-between flex-grow">
-                    <p class="leading-relaxed text-base text-white dark:text-gray-300">
-                        Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice
-                        poutine.
-                    </p>
-                    <a href="#"
-                        class="mt-3 text-black dark:text-white hover:text-blue-600 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                </div>
+                <!-- slider -->
+            </div>
+            <div class="row-span-1 flex justify-center">
+                <img class="h-4/5" src="assets/images/home/martillo.png" alt="" />
             </div>
         </div>
+    </section>
 
-        <!-- card 2 -->
-        <div class="p-4 max-w-sm">
-            <div class="flex rounded-lg h-full dark:bg-gray-800 bg-teal-400 p-8 flex-col">
-                <div class="flex items-center mb-3">
-                    <div
-                        class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                        </svg>
+    <section>
+        <div class="max-w-[50rem] flex flex-col mx-auto size-full">
+
+            <!-- ========== MAIN CONTENT ========== -->
+            <main id="content">
+                <div class="text-center py-10 px-4 sm:px-6 lg:px-8">
+                    <h1 class="block text-2xl font-bold text-[#193C3A] sm:text-4xl">La Experiencia Cuenta</h1>
+                    <p class="mt-7 text-lg text-[#255344]">Nuestro equipo de abogados especializados en casos de
+                        lesiones
+                        personales tiene décadas de experiencia en la gestión de una amplia gama de situaciones,
+                        incluyendo
+                        accidentes
+                        automovilísticos, mordeduras de perros y casos de acoso sexual. Contamos con un historial
+                        comprobado
+                        de éxito en los tribunales y hemos asegurado millones en compensación para nuestros clientes en
+                        estas áreas específicas del derecho.
+                        Nuestra dedicación y habilidades legales han sido fundamentales para obtener resultados exitosos
+                        en
+                        casos que abarcan desde lesiones causadas por accidentes automovilísticos hasta reclamaciones
+                        por
+                        mordeduras de perros y casos de acoso sexual.
+                        Confíe en nuestro equipo para representar sus intereses con determinación y obtener la
+                        compensación
+                        justa que usted merece en estas situaciones delicadas y complejas.</p>
+                    <div class="mt-5 flex flex-col justify-center items-center gap-2 sm:flex-row sm:gap-3">
                     </div>
-                    <h2 class="text-white dark:text-white text-lg font-medium">Feature 2</h2>
                 </div>
-                <div class="flex flex-col justify-between flex-grow">
-                    <p class="leading-relaxed text-base text-white dark:text-gray-300">
-                        Lorem ipsum dolor sit amet. In quos laboriosam non neque eveniet 33 nihil molestias. Rem
-                        perspiciatis iure ut laborum inventore et maxime amet.
-                    </p>
-                    <a href="#"
-                        class="mt-3 text-black dark:text-white hover:text-blue-600 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- card 3 -->
-        <div class="p-4 max-w-sm">
-            <div class="flex rounded-lg h-full dark:bg-gray-800 bg-teal-400 p-8 flex-col">
-                <div class="flex items-center mb-3">
-                    <div
-                        class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                        </svg>
-                    </div>
-                    <h2 class="text-white dark:text-white text-lg font-medium">Feature 3</h2>
-                </div>
-                <div class="flex flex-col justify-between flex-grow">
-                    <p class="leading-relaxed text-base text-white dark:text-gray-300">
-                        Lorem ipsum dolor sit amet. In quos laboriosam non neque eveniet 33 nihil molestias. Rem
-                        perspiciatis iure ut laborum inventore et maxime amet.
-                    </p>
-                    <a href="#"
-                        class="mt-3 text-black dark:text-white hover:text-blue-600 inline-flex items-center">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                            <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
+            </main>
+    </section>
     <footer class="w-full max-w-[100rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto bg-[#193C3A]">
         <!-- Grid -->
-        <div class="text-center">
+        <div class="text-center display: flex; justify-content: space-between;">
             <div>
                 <a class="flex-none text-xl font-semibold text-white :focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                     href="#" aria-label="Brand">LEGAL SERVICES</a>
@@ -350,6 +307,7 @@
         <!-- End Grid -->
     </footer>
 
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -363,7 +321,5 @@
         });
     </script>
 </body>
-
-
 
 </html>
