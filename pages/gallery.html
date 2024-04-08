@@ -1,133 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <title>Gallery</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <title>CodePen - Playlist Carousel - css only</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/js/script.js">
+
+
 
 </head>
-
 <body>
-    <!-- Navbar -->
-
-    <header class="bg-black text-white shadow-lg hidden md:block">
-        <div class="container mx-auto flex items-center h-24">
-            <a href="" class="flex items-center justify-center">
-                <img class="h-16" src="https://i.ibb.co/6Yxs70d/2021-10-26-23h27-03.png" alt="" />
-                <span class="ml-4 uppercase font-black">clara<br />thella</span>
-            </a>
-            <nav class="contents font-semibold text-base lg:text-lg">
-                <ul class="mx-auto flex items-center">
-                    <li class="p-5 xl:p-8 active">
-                        <a href="">
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li class="p-5 xl:p-8">
-                        <a href="">
-                            <span>About</span>
-                        </a>
-                    </li>
-                    <li class="p-5 xl:p-8">
-                        <a href="">
-                            <span>Projects</span>
-                        </a>
-                    </li>
-                    <li class="p-5 xl:p-8">
-                        <a href="">
-                            <span>Services</span>
-                        </a>
-                    </li>
-                    <li class="p-5 xl:p-8">
-                        <a href="">
-                            <span>Blog</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
-    </header>
-
-    <!-- Navbar Mobile -->
-    <nav class="bg-black text-white shadow-lg block md:hidden">
-        <div class="container mx-auto flex items-center h-24">
-            <a href="" class="flex items-center justify-center">
-                <img class="h-16" src="https://i.ibb.co/6Yxs70d/2021-10-26-23h27-03.png" alt="" />
-                <span class="ml-4 uppercase font-black">clara<br />thella</span>
-            </a>
-            <button class="ml-auto mr-4 focus:outline-none">
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
-                    </path>
-                </svg>
-            </button>
-        </div>
-        <div class="hidden">
-            <ul class="mt-4">
-                <li class="p-4">
-                    <a href="">
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li class="p-4">
-                    <a href="">
-                        <span>About</span>
-                    </a>
-                </li>
-                <li class="p-4">
-                    <a href="">
-                        <span>Projects</span>
-                    </a>
-                </li>
-                <li class="p-4">
-                    <a href="">
-                        <span>Services</span>
-                    </a>
-                </li>
-                <li class="p-4">
-                    <a href="">
-                        <span>Blog</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- fin de mobile navbar -->
-
-    <!-- partial:index.partial.html -->
-    <section class="flex h-full">
-        <input type="radio" name="slider" id="item-1" checked>
-        <input type="radio" name="slider" id="item-2">
-        <input type="radio" name="slider" id="item-3">
-        <input type="radio" name="slider" id="item-4">
-        <div class="cardsGallery">
-            <label class="cardGallery" for="item-1" id="song-1">
-                <video src="../assets/video/test.mp4" id="video1">
-                </video>
-            </label>
-            <label class="cardGallery" for="item-2" id="song-2">
-                <video src="../assets/video/test.mp4" id="video2">
-                </video>
-            </label>
-            <label class="cardGallery" for="item-3" id="song-3">
-                <video src="../assets/video/test.mp4" id="video3">
-                </video>
-            </label>
-            <label class="cardGallery" for="item-4" id="song-4">
-                <video src="../assets/video/test.mp4" id="video4">
-                </video>
-            </label>
-        </div>
-        </div>
-    </section>
-    <!-- partial -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-    <script src="../assets/js/script.js"></script>
+<!-- partial:index.partial.html -->
+<div class="container">
+    <input type="radio" name="slider" id="item-1" checked>
+    <input type="radio" name="slider" id="item-2">
+    <input type="radio" name="slider" id="item-3">
+    <input type="radio" name="slider" id="item-4">
+    <input type="radio" name="slider" id="item-5">
+  <div class="cards">
+    <label class="card" for="item-1" id="song-1">
+        <video class="small-video" controls  loop muted>
+            <source src="../assets/video/Video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    </label>
+    <label class="card" for="item-2" id="song-2">
+        <video class="small-video" controls  loop muted>
+            <source src="../assets/video/video2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    </label>
+    <label class="card" for="item-3" id="song-3">
+        <video class="small-video" controls  loop muted>
+            <source src="../assets/video/video3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    </label>
+    <label class="card" for="item-4" id="song-4">
+        <video class="small-video" controls  loop muted>
+            <source src="../assets/video/video3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    </label>
+    <label class="card" for="item-5" id="song-5">
+        <video class="small-video" controls  loop muted>
+            <source src="../assets/video/video5.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+    </label>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="../assets/js/script.js"></script>
 
 </body>
-
 </html>
