@@ -1,5 +1,5 @@
 $('input').on('change', function() {
-  $('body').toggleClass('bg-cyan-700');
+  $('body').toggleClass('');
 });
 
 const radioButtons = document.querySelectorAll('input[type="radio"][name="slider"]');
