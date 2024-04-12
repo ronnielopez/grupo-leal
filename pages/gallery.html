@@ -1,58 +1,88 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Playlist Carousel - css only</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" href="../assets/js/script.js">
-
-
+  <title>Galeria</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css'>
+  <link rel='stylesheet' href='https://www.unpkg.com/browse/tailwindcss@2.2.19/dist/tailwind.min.css'>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<div class="container">
-    <input type="radio" name="slider" id="item-1" checked>
-    <input type="radio" name="slider" id="item-2">
-    <input type="radio" name="slider" id="item-3">
-    <input type="radio" name="slider" id="item-4">
-    <input type="radio" name="slider" id="item-5">
-  <div class="cards">
-    <label class="card" for="item-1" id="song-1">
-        <video class="small-video" controls  loop muted>
-            <source src="../assets/video/Video1.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-    </label>
-    <label class="card" for="item-2" id="song-2">
-        <video class="small-video" controls  loop muted>
-            <source src="../assets/video/video2.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-    </label>
-    <label class="card" for="item-3" id="song-3">
-        <video class="small-video" controls  loop muted>
-            <source src="../assets/video/video3.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-    </label>
-    <label class="card" for="item-4" id="song-4">
-        <video class="small-video" controls  loop muted>
-            <source src="../assets/video/video3.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-    </label>
-    <label class="card" for="item-5" id="song-5">
-        <video class="small-video" controls  loop muted>
-            <source src="../assets/video/video5.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-    </label>
+  <header class="bg-[#FCEDC9] hidden md:block py-10"
+  style="background-image: url(assets/images/home/home-banner.png); background-position: center; background-size: cover;">
+  <div class="container mx-auto flex items-center h-24 justify-between py-10">
+      <a class="logo mr-auto" style="margin: 0 auto;">
+          <img class="h-18" src="../assets/images/home/logoverde.png" alt="index.html" />
+      </a>
+      <nav class="navbar contents font-semibold text-base lg:text-lg text-[#193C3A]">
+          <ul class="mx-auto flex items-start">
+              <li class="p-5 xl:p-8 active">
+                  <a href="">
+                      <span>Areas de especialidad</span>
+                  </a>
+              </li>
+              <li class="p-5 xl:p-8">
+                  <a href="pages/gallery.html">
+                      <span>Galeria</span>
+                  </a>
+              </li>
+              <li class="p-5 xl:p-8">
+                  <a href="pages/casos.html">
+                      <span>Casos</span>
+                  </a>
+              </li>
+              <li class="p-5 xl:p-8">
+                  <a href="#abogados">
+                      <span>Acerca de nosotros</span>
+                  </a>
+              </li>
+              <li class="p-5 xl:p-8">
+                  <a href="pages/contactanos.html">
+                      <span>Contáctanos</span>
+                  </a>
+              </li>
+          </ul>
+      </nav>
   </div>
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="../assets/js/script.js"></script>
+
+  </div>
+</header>
+
+  <!-- partial:index.partial.html -->
+  <section class="my-10">
+    <section class="carousel-3D-swiper-section">
+      <!-- Slider main container -->
+      <div class="carousel-3D-swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="image-wrapper aspect-video h-[48rem]">
+              <video class="aspect-video" controls loop muted>
+                <source src="../assets/video/Video1.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- pagination -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      </div>
+    </section>
+  </section>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js'></script>
+  <script src="../assets/js/script.js"></script>
 
 </body>
+
 </html>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js'></script>
+<script src="../assets/js/script.js"></script>
